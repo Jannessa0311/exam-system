@@ -20,7 +20,8 @@ results_*.xlsx
 downloads/
 
 # Config with tokens (使用 config.example.json 作为模板)
-config.json
+# config.json - 现在需要提交，因为 Streamlit Cloud 需要它
+# 注意：确保 config.json 中不包含敏感信息（如 GitHub token）
 
 # Streamlit secrets (包含敏感信息)
 .streamlit/secrets.toml
