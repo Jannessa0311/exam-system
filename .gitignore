@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Streamlit secrets (包含敏感信息)
+.streamlit/secrets.toml
+
+# Results files (包含敏感信息)
+results_*.xlsx
+*.xlsx.bak
+
+# Downloads
+downloads/
+
+# Config with tokens (使用 config.example.json 作为模板)
+config.json
+
+# Streamlit secrets (包含敏感信息)
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

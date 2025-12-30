@@ -1,0 +1,27 @@
+{
+  "github": {
+    "enabled": false,
+    "repo_owner": "your-username",
+    "repo_name": "your-repo-name",
+    "branch": "main",
+    "token": null
+  },
+  "trainings": [
+    {
+      "id": "training_001",
+      "name": "3150U CSP Testing",
+      "question_file": "question_pool(3150U CSP Testing Link).xlsx",
+      "result_file": "results_training_001.xlsx",
+      "result_sheet": "Training_001_Results",
+      "target_score": 100,
+      "description": "3150U CSP Testing Training",
+      "google_sheets": {
+        "enabled": false,
+        "sheet_id": "your-google-sheet-id",
+        "sheet_name": "PT1.0_CSP"
+      }
+    }
+  ],
+  "local_mode": true
+}
+
