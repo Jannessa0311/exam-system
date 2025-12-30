@@ -1,0 +1,27 @@
+{
+  "github": {
+    "enabled": true,
+    "repo_owner": "your-username",
+    "repo_name": "your-repo-name",
+    "branch": "main",
+    "token": null
+  },
+  "trainings": [
+    {
+      "id": "training_001",
+      "name": "RMA Test",
+      "question_file": "RMA test.xlsx",
+      "result_file": "results_training_001.xlsx",
+      "result_sheet": "Training_001_Results",
+      "target_score": 100,
+      "description": "RMA Test Training",
+      "google_sheets": {
+        "enabled": true,
+        "sheet_id": "1rztaMGW7BrnJ8xV36Qik60tVeDAZVM5-NZCbre5WYRM",
+        "sheet_name": "工作表1"
+      }
+    }
+  ],
+  "local_mode": true
+}
+
